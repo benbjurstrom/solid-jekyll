@@ -2,12 +2,12 @@
 layout: default
 ---
 
-{% include wrap.html %}
+{% include wrap.liquid %}
 
 <div class="container mt">
     <div class="row">
 
-        {% include carousel.html %}
+        {% include carousel.liquid %}
 
         <div class="col-lg-5 col-lg-offset-1">
             <div class="spacing"></div>
@@ -28,5 +28,5 @@ layout: default
         </div>
     </div><! --/row -->
 </div><! --/container -->
-	 
-{% include portfolio.html title="Related Works." limit=5 %}
+
+{% include portfolio.liquid title="Related Works." limit=5 %}
